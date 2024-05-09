@@ -1,0 +1,234 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.btn {
+  background-color: red;
+  border: none;
+  border-radius: 10px;
+  padding: 20px 43px;
+  color: #fff;
+  font-family: Lato;
+  font-size: 30px;
+  font-weight: 700;
+  margin-top: 32px;
+}
+/* navbar styles */
+.nav_container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(219, 215, 220);
+  padding: 15px;
+}
+.nav_menue ul {
+  display: flex;
+  justify-content: space-around;
+}
+.nav_container li {
+  text-decoration: none;
+  list-style: none;
+  margin-right: 20px;
+  font-size: 35px;
+  padding: 15px;
+  font-weight: 500;
+}
+.nav_container li:hover {
+  background-color: azure;
+}
+.nav_title {
+  font-size: 45px;
+}
+.banner_container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: rgba(229, 84, 115, 0.1);
+}
+.banner_img {
+  width: 635px;
+  height: 800px;
+  flex-shrink: 0;
+}
+.banner_title {
+  color: #272727;
+  font-family: Lato;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  width: 708px;
+}
+.banner_description {
+  color: rgba(39, 39, 39, 0.6);
+  font-family: Lato;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  width: 634px;
+  margin-top: 32px;
+  margin-bottom: 0px;
+}
+
+.around {
+  margin: 128px 240px;
+}
+.second_container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+  width: 1440px;
+  height: 320px;
+}
+.box_img {
+  height: 88px;
+  width: 88px;
+  margin-bottom: 20px;
+}
+.box_img_des {
+  color: rgba(39, 39, 39, 0.8);
+
+  text-align: center;
+  font-family: Lato;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+}
+/* discount offer styles */
+.hot_deal_container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 8px;
+  background: rgba(229, 84, 115, 0.05);
+  width: 100%;
+  height: 620px;
+}
+.deal_info {
+  text-align: center;
+}
+.deal_heading {
+  color: #272727;
+  font-family: Lato;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 800;
+}
+.off {
+  color: #e55473;
+  font-family: Lato;
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.deal_description {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-family: Lato;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 500;
+  margin-top: 24px;
+  margin-bottom: 26px;
+  width: 590px;
+}
+.insta_part {
+  text-align: center;
+}
+.insta_title {
+  color: #272727;
+  /* text-align: center; */
+  font-family: Lato;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+.insta_description {
+  color: rgba(39, 39, 39, 0.6);
+  /* text-align: center; */
+  font-family: Lato;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  margin-bottom: 50px;
+}
+.insta_flower_container {
+  display: flex;
+  justify-content: space-around;
+}
+.insta_flower {
+  width: 342px;
+  height: 396px;
+}
+.latest {
+  margin: 128px 240px 0px;
+  background-image: url("./Flower Asset/Rectangle 9.png");
+  text-align: center;
+  background-repeat: no-repeat;
+  padding: 122px 0px;
+  width: 1440px;
+  height: 449px;
+}
+.latest_title {
+  color: #272727;
+  /* text-align: center; */
+  font-family: Lato;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  margin-bottom: 16px;
+}
+.latest_des {
+  color: rgba(39, 39, 39, 0.6);
+  /* text-align: center; */
+  font-family: Lato;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+input {
+  margin-right: 10px;
+  padding: 20px 490px 20px 15px;
+  border-radius: 8px;
+  background: #fff;
+
+  color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-family: Lato;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+}
+
+/* footer sytles */
+footer{
+    background-color: black;
+    color: white;
+    padding:128px 650px ;
+    text-align: center;
+    margin-top: 0px;
+}
+.shop_name{
+font-family: Lato;
+font-size: 48px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+span{
+    color: #E55473;
+}
+.shop_des{
+    color: rgba(255, 255, 255, 0.90);
+font-family: Lato;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+margin: 24px 0px 32px 0px;
+}
