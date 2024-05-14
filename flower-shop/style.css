@@ -112,7 +112,10 @@
   gap: 30px;
   
 }
-
+.caption{
+    margin-top: 25px;
+    font-size: 25px;
+}
 
 /* border-radius: 300px 300px 0px 0px; */
 
@@ -227,7 +230,7 @@ height: 471px;
 }
 .latest {
   margin: 128px 240px 0px;
-  background-image: url("./Flower Asset/Rectangle 9.png");
+  background-image: url("./Flower Asset/rectangle 9.png");
   text-align: center;
   background-repeat: no-repeat;
   padding: 122px 0px;
